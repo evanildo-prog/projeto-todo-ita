@@ -1,0 +1,1 @@
+docker run -d --name mongo -p 27017:27017 -v $(pwd)/loaddb.js:/docker-entrypoint-initdb.d/loaddb.js mongo:4-bionic
